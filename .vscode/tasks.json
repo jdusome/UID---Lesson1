@@ -1,0 +1,15 @@
+{
+ "version": "0.1.0",
+ "command": "cmd",
+ "args": ["/C"],
+ "isShellCommand": true,
+ "isBuildCommand": true,
+ "showOutput": "always",
+ "suppressTaskName": true,
+ "tasks": [
+     {   
+         "taskName": "Firefox",
+         "args": ["start firefox -private-window \"${file}\""]
+     }
+    ]
+}
